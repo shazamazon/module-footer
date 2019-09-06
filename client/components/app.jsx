@@ -8,7 +8,7 @@ class App extends React.Component {
   render() {
     return (
       <div id="footer">
-          <div id="footer-top">
+          <div onClick={window.scrollTo(0, 0)} id="footer-top">
               <span id="footer-toptext">Back to top</span>
           </div>
           <div id="footer-middle">
@@ -16,7 +16,7 @@ class App extends React.Component {
                   <div id="footer-middleCols">
                       <div className="footer-row">
                           <div className="footer-rowtitle">Get to Know Us</div>
-                          <ul>
+                          <ul className="footer-ul">
                               <li className="footer-list">Careers</li>
                               <li className="footer-list">Blog</li>
                               <li className="footer-list">About Shazamazon</li>
@@ -29,7 +29,7 @@ class App extends React.Component {
                       <div className="footer-spacer"></div>
                       <div className="footer-row">
                           <div className="footer-rowtitle">Make Money with Us</div>
-                          <ul>
+                          <ul className="footer-ul">
                             <li className="footer-list">Sell on Shazamazon</li>
                             <li className="footer-list">Sell Under Private Brands</li>
                             <li className="footer-list">Sell on Shazamazon Handmade</li>
@@ -39,7 +39,6 @@ class App extends React.Component {
                             <li className="footer-list">Become an Affiliate</li>
                             <li className="footer-list">Advertise Your Products</li>
                             <li className="footer-list">Self-Publish with Us</li>
-                            <li className="footer-list">> See More</li>
                           </ul>
                       </div>
                       <div className="footer-spacer"></div>
@@ -59,7 +58,7 @@ class App extends React.Component {
                       <div className="footer-spacer"></div>
                       <div className="footer-row">
                           <div className="footer-rowtitle">Let Us Help You</div>
-                          <ul>
+                          <ul className="footer-ul">
                             <li className="footer-list">Your Account</li>
                             <li className="footer-list">Your Orders</li>
                             <li className="footer-list">Shipping Rates & Policies</li>
